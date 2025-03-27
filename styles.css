@@ -78,3 +78,9 @@ button:active {
     transition: transform 0.1s ease;
 }
 
+@media screen and (max-width: 480px) {
+    .calculator {
+        width: 100%;
+        max-width: 320%;
+    }
+}
